@@ -1,0 +1,9 @@
+div {
+    font-size: 7px;
+}
+
+.title{
+    background-color: yellow;
+    border: solid;
+    border-color: black;
+}
