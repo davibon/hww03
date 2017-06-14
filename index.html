@@ -5,16 +5,30 @@
     <meta charset="UTF-8">
     <title>2017 D3 Course hw03</title>
     <script src="https://d3js.org/d3.v3.js"></script>
-    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-   <div class=title>2016年8月且台北市且發票數量大於10億張的項目</div>
-    <svg width="900" height="500">
+    <p class=title>2016年8月且台北市且發票數量大於10億張的項目</p>
+    <svg width="900" height="300">
       
   </svg>
 
+    <p class=title>把數字小於70改紅色</p>
+    <div id="s2"></div>
+
+    <p class=title>建立簡單動態圖表</p>
+
+    <input type="button" value="新增" onclick="update()">
+    <input type="button" value="刪除" onclick="del()">
+    <div id='bchart'></div>
+    
+    <p class=title>秀出各政黨顏色</p>
+    <input type="text" id='party' value="無黨團結聯盟">
+    <input type="button" value="秀顏色" onclick="showColor()">
+    
+    <script src="script.js"></script>
 </body>
 
 </html>
